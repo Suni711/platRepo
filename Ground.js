@@ -11,7 +11,9 @@ class Ground {
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
-      fill("brown");
+      fill("blue");
+      //i am just doing a small chnage here changed the color of platform to blue 
+
       rect(pos.x, pos.y, this.width, this.height);
     }
   };
